@@ -38,11 +38,11 @@ Recommending [Product ID: 1307153, Category: computers.notebook, Brand: lenovo a
 ## Insights
 The data showcases a system that identifies trending products across different groupings, termed "buckets". Each product, denoted by an ID, has a trending percentage in these buckets; a positive value indicates rising popularity, while a negative hints at decreasing interest. For example, product "1307153" sees both growth and decline in different buckets.The speed layer offers real-time product recommendations for individual users, distinct from the general trend analysis. Lastly, the serving layer amalgamates these insights, pinpointing top trending products and interweaving real-time user-specific recommendations. Negative percentages, especially, highlight products witnessing waning demand or shifting consumer preferences in their respective categories.
 
-##What I learned
-*Sometimes, just analyzing data can teach us a lot, even without advanced predictions.
-*Planning ahead is important. Decide what data you want to input and get out of your model before you start.
-*What Kfka and Lamda architectures are
-*How to create an advanced data pipeline in python that
+## What I learned
+* Sometimes, just analyzing data can teach us a lot, even without advanced predictions.
+* Planning ahead is important. Decide what data you want to input and get out of your model before you start.
+* What Kfka and Lamda architectures are
+* How to create an advanced data pipeline in python that
 
 
 ## How to use this repository
