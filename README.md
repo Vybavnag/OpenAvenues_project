@@ -12,7 +12,8 @@ This project simulates a recommendation for users using Data Analysis through th
 
 ## Motivation
 I use Amazon, Youtube as well as other services on a daily. While browsing these websites I never really thought about how it worked. While working on this project and learning about how recommendations and Kafa architectures work I was intrigued by how these websites do recommendations. I wanted to emulate a consumer website and recommend trending products as well as similar products to what the user interacted with as seen in this screenshot of Amazon.
-![alt text](https://imgur.com/tf5SckAA)
+<img src="https://imgur.com/tf5SckAA"/>
+
 
 ## Summary of approach
 For this project, I decided to follow the basic Lambda architecture as seen below:
