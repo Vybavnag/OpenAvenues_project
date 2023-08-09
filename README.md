@@ -46,4 +46,4 @@ The data showcases a system that identifies trending products across different g
 
 
 ## How to use this repository
-This repository has a main_code file which you should download as well as the dataset_link file which leads you to the datasets used. Download them in the same file and rub the main_code file preferably on JypterNotebook or GoogleColab. The rest of the files showcase what I learned week by week while working on this project with OpenAvenues.
+This repository has a main_code file which you should download as well as the dataset_link file which leads you to the datasets used. Download them in the same file and rub the main_code file preferably on JypterNotebook or GoogleColab. Main_code_outputs shows all the outputs I got, when you run the file you should get something similar. The rest of the files showcase what I learned week by week while working on this project with OpenAvenues.
