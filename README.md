@@ -11,10 +11,17 @@ This project simulates a recommendation for users using Data Analysis through th
 * [How to use this repository](#how-to-use-this-repository)
 
 ## Motivation
-I use Amazon, Youtube as well as other services on a daily. While browsing these websites I never really thought about how it worked. While working on this project and learning about how recommendations and Kafa architectures work I was intrigued by how these websites do recommendations. I wanted to emulate a consumer website and recommend trending products as well as similar products to what the user interacted with as seen in this screenshot of Amazon
+I use Amazon, Youtube as well as other services on a daily. While browsing these websites I never really thought about how it worked. While working on this project and learning about how recommendations and Kafa architectures work I was intrigued by how these websites do recommendations. I wanted to emulate a consumer website and recommend trending products as well as similar products to what the user interacted with as seen in this screenshot of Amazon.
+![alt text](https://imgur.com/tf5SckAA)
 
 ## Summary of approach
-For this project, I decided to follow the basic Lambda architecture as seen below. Here is a sketch of me using the same architecture and brainstorming features I wanted. I decided to connect the BatchLayer and ServingLayer and have the SpeedLayer run adjacent to it and have the data feed into the Batch and ServingLayers as well as the results being fed into the query as you can see above. 
+For this project, I decided to follow the basic Lambda architecture as seen below:
+![alt text](hhttps://imgur.com/mnuTwGB)
+
+Here is a sketch of me using the same architecture and brainstorming features I wanted:
+![alt text](https://imgur.com/qsqnCSB)
+
+I decided to connect the BatchLayer and ServingLayer and have the SpeedLayer run adjacent to it and have the data feed into the Batch and ServingLayers as well as the results being fed into the query as you can see above. 
 
 ## Results
 * Batch Layer Results:
