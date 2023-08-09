@@ -6,7 +6,7 @@ This project simulates a recommendation for users using Data Analysis through th
 * [Motivation](#motivation)
 * [Summary of approach](#summary-of-approach)
 * [Results](#results)
-* [insights](#insights)
+* [Insights](#insights)
 * [What I learned](#what-i-learned)
 * [How to use this repository](#how-to-use-this-repository)
 
