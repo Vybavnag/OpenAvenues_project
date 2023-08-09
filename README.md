@@ -17,35 +17,21 @@ I use Amazon, Youtube as well as other services on a daily. While browsing these
 For this project, I decided to follow the basic Lambda architecture as seen below. Here is a sketch of me using the same architecture and brainstorming features I wanted. I decided to connect the BatchLayer and ServingLayer and have the SpeedLayer run adjacent to it and have the data feed into the Batch and ServingLayers as well as the results being fed into the query as you can see above. 
 
 ## Results
-Batch Layer Results:
-
-Bucket 0: Trending items: {1307153: 0.5, 4100346: 0.25}
-
-Bucket 1: Trending items: {45300114: -0.5, 1307153: -0.5, 5100542: -0.5, 3600666: -0.5, 4804137: -0.5, 4100346: -0.25}
-
-Bucket 2: Trending items: {45300114: 0.5, 3600666: 0.5, 4804137: 0.5}
-
-Bucket 3: Trending items: {23100035: -0.5, 1002633: -0.5, 12711562: -0.5, 2800396: -0.5, 1801739: -0.5, 5100817: -0.5, 45300114: -0.5, 3600661: -0.5, 5000475: -0.5, 3600666: -0.5, 5300125: -0.5, 3700766: -0.5, 5301663: -0.5, 17300769: -0.5, 1004836: -0.5, 12703015: -0.5, 12708392: -0.5, 4804137: -0.5, 26300078: -0.5, 26401582: -0.5, 1002542: -0.5, 1005105: -0.5, 1004210: -0.5, 12719535: -0.5, 26300084: -0.5, 5300405: -0.5, 1004856: -0.6666666666666666, 26400314: -0.5, 1005116: -0.5, 23900093: -0.5, 1005115: -0.5, 1004863: -0.5, 4900420: -0.5, 8700229: -0.5, 1004741: -0.5, 3801416: -0.5, 1005003: -0.5, 1005144: -0.5, 3300315: -0.5, 1004767: -0.8, 4802400: -0.5, 1500258: -0.5, 3900003: -0.5, 45100016: -0.5, 4100346: -0.5, 6700796: -0.5, 24100862: -0.5, 1307135: -0.5}
-
-Product IDs: [1307153, 4100346, 45300114, 5100542, 3600666]
-
-Trending Percentages: [1.0, 1.0, 1.0, 1.0, 1.0]
-
-Speed Layer Results:
-
-Similar Product Recommendations for User 532647354: [49100009, 1304409, 1005100, 2601423, 1005115]
-
-Precomputed results stored.
-
-Serving Layer Results:
-
-Stored Results: [(1307153, 1.0), (4100346, 1.0), (45300114, 1.0), (5100542, 1.0), (3600666, 1.0)]
-
-Product with the Highest Trending Percentage: 1307153
-
-Most Similar Product from Speed Layer: 49100009
-
-Recommending [Product ID: 1307153, Category: computers.notebook, Brand: lenovo and Product ID: 49100009, Category: nan, Brand: laston]
+* Batch Layer Results:
+* Bucket 0: Trending items: {1307153: 0.5, 4100346: 0.25}
+* Bucket 1: Trending items: {45300114: -0.5, 1307153: -0.5, 5100542: -0.5, 3600666: -0.5, 4804137: -0.5, 4100346: -0.25}
+* Bucket 2: Trending items: {45300114: 0.5, 3600666: 0.5, 4804137: 0.5}
+* Bucket 3: Trending items: {23100035: -0.5, 1002633: -0.5, 12711562: -0.5, 2800396: -0.5, 1801739: -0.5, 5100817: -0.5, 45300114: -0.5, 3600661: -0.5, 5000475: -0.5, 3600666: -0.5, 5300125: -0.5, 3700766: -0.5, 5301663: -0.5, 17300769: -0.5, 1004836: -0.5, 12703015: -0.5, 12708392: -0.5, 4804137: -0.5, 26300078: -0.5, 26401582: -0.5, 1002542: -0.5, 1005105: -0.5, 1004210: -0.5, 12719535: -0.5, 26300084: -0.5, 5300405: -0.5, 1004856: -0.6666666666666666, 26400314: -0.5, 1005116: -0.5, 23900093: -0.5, 1005115: -0.5, 1004863: -0.5, 4900420: -0.5, 8700229: -0.5, 1004741: -0.5, 3801416: -0.5, 1005003: -0.5, 1005144: -0.5, 3300315: -0.5, 1004767: -0.8, 4802400: -0.5, 1500258: -0.5, 3900003: -0.5, 45100016: -0.5, 4100346: -0.5, 6700796: -0.5, 24100862: -0.5, 1307135: -0.5}
+* Product IDs: [1307153, 4100346, 45300114, 5100542, 3600666]
+* Trending Percentages: [1.0, 1.0, 1.0, 1.0, 1.0]
+* Speed Layer Results:
+* Similar Product Recommendations for User 532647354: [49100009, 1304409, 1005100, 2601423, 1005115]
+* Precomputed results stored.
+* Serving Layer Results:
+* Stored Results: [(1307153, 1.0), (4100346, 1.0), (45300114, 1.0), (5100542, 1.0), (3600666, 1.0)]
+* Product with the Highest Trending Percentage: 1307153
+* Most Similar Product from Speed Layer: 49100009
+* Recommending [Product ID: 1307153, Category: computers.notebook, Brand: lenovo and Product ID: 49100009, Category: nan, Brand: laston]
 
 *Results showcase trending items out of 10000 rows that were sampled, similar products to what user 532647354 interacted with along with recommendations for said user*
 
