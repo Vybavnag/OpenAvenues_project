@@ -1,1 +1,3 @@
-https://www.kaggle.com/code/aleenashelvi/ecommerce-data-analysis
+Here is the link to the data set I have used was unable to upload it to github as file size to large. 
+
+https://www.kaggle.com/code/aleenashelvi/ecommerce-data-analysis/input
