@@ -49,8 +49,9 @@ The data showcases a system that identifies trending products across different g
 ## What I learned
 * Sometimes, just analyzing data can teach us a lot, even without advanced predictions.
 * Planning ahead is important. Decide what data you want to input and get out of your model before you start.
-* What Kfka and Lamda architectures are
-* How to create an advanced data pipeline in python that
+* What are Kafka systems.
+* How to create an advanced data pipeline in python to analyze data and create reccomendations 
+  
 
 
 ## How to use this repository
